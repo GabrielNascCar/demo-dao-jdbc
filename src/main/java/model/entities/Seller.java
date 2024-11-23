@@ -7,7 +7,7 @@ import java.util.Objects;
 public class Seller implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private int id;
+    private Integer id;
     private String nome;
     private String email;
     private Date birthDate;
@@ -16,7 +16,7 @@ public class Seller implements Serializable {
     private Department department;
 
     public Seller() {}
-    public Seller(int id, String nome, String email, Date birthDate, Double baseSalary, Department department) {
+    public Seller(Integer id, String nome, String email, Date birthDate, Double baseSalary, Department department) {
         this.id = id;
         this.nome = nome;
         this.email = email;
